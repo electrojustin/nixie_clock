@@ -30,7 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:cmos4000_custom
 LIBS:hv
-LIBS:power_custom
 LIBS:nixie_supply-cache
 EELAYER 25 0
 EELAYER END
