@@ -974,7 +974,7 @@
   )
 
   (module Diodes_THT:D_T-1_P5.08mm_Horizontal (layer F.Cu) (tedit 5877C982) (tstamp 59188AC0)
-    (at 120.65 123.19 180)
+    (at 124.46 124.46 180)
     (descr "D, T-1 series, Axial, Horizontal, pin pitch=5.08mm, , length*diameter=3.2*2.6mm^2, , http://www.diodes.com/_files/packages/T-1.pdf")
     (tags "D T-1 series Axial Horizontal pin pitch 5.08mm  length 3.2mm diameter 2.6mm")
     (path /5910AEC0/590CFF0A)
