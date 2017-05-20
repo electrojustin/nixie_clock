@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:nixie_supply-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -128,9 +129,11 @@ F 3 "" H 4600 2750 50  0000 C CNN
 $EndComp
 Connection ~ 4300 2750
 $Comp
-L 7805 U3
+L 7805-RESCUE-nixie_supply U3
 U 1 1 5910C9D6
 P 3600 4400
+AR Path="/5910C9D6" Ref="U3"  Part="1" 
+AR Path="/5910C48C/5910C9D6" Ref="U3"  Part="1" 
 F 0 "U3" H 3750 4204 50  0000 C CNN
 F 1 "7805" H 3600 4600 50  0000 C CNN
 F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 3600 4400 50  0001 C CNN

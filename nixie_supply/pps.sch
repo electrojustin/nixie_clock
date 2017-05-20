@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:nixie_supply-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LM741 U4
+L LM741-RESCUE-nixie_supply U4
 U 1 1 5910E51A
 P 3200 2400
 F 0 "U4" H 3200 2650 50  0000 L CNN

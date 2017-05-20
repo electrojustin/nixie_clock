@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:nixie_supply-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -227,7 +228,7 @@ Wire Wire Line
 	6950 3250 6950 3400
 Connection ~ 6950 2850
 $Comp
-L LM741 U1
+L LM741-RESCUE-nixie_supply U1
 U 1 1 590D1633
 P 3700 4700
 F 0 "U1" H 3700 4950 50  0000 L CNN
