@@ -74,9 +74,8 @@ F0 "PPS" 60
 F1 "pps.sch" 60
 F2 "5V" I L 5350 4050 60 
 F3 "+12VAC" I L 5350 4200 60 
-F4 "-12VAC" I L 5350 4350 60 
-F5 "CLK_OUT" I R 6350 4200 60 
-F6 "GND" I L 5350 4500 60 
+F4 "CLK_OUT" I R 6350 4200 60 
+F5 "GND" I L 5350 4500 60 
 $EndSheet
 $Comp
 L CONN_01X02 P1
@@ -87,17 +86,6 @@ F 1 "CONN_01X02" V 2950 3000 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2850 3000 50  0001 C CNN
 F 3 "" H 2850 3000 50  0000 C CNN
 	1    2850 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X04 P2
-U 1 1 59112A3C
-P 8650 3900
-F 0 "P2" H 8650 4150 50  0000 C CNN
-F 1 "CONN_01X04" V 8750 3900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 8650 3900 50  0001 C CNN
-F 3 "" H 8650 3900 50  0000 C CNN
-	1    8650 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -121,7 +109,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 3750 7900 3950
 Wire Wire Line
-	7900 3950 8450 3950
+	7900 3950 8550 3950
 Wire Wire Line
 	4900 2650 6200 2650
 Wire Wire Line
@@ -131,13 +119,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 3650 8050 3850
 Wire Wire Line
-	8050 3850 8450 3850
-Wire Wire Line
-	7950 3100 8200 3100
-Wire Wire Line
-	8200 3100 8200 3750
-Wire Wire Line
-	8200 3750 8450 3750
+	8050 3850 8550 3850
 Wire Wire Line
 	6450 2700 5750 2700
 Wire Wire Line
@@ -166,11 +148,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 4200 3400 2400
 Connection ~ 3400 2400
-Wire Wire Line
-	5350 4350 3200 4350
-Wire Wire Line
-	3200 4350 3200 2550
-Connection ~ 3200 2550
 Wire Wire Line
 	5050 4500 5050 2850
 Connection ~ 5050 2850
@@ -202,4 +179,30 @@ Wire Wire Line
 Wire Wire Line
 	3050 2250 3050 2550
 Connection ~ 3050 2550
+$Comp
+L CONN_01X03 J2
+U 1 1 598577B3
+P 8750 3950
+F 0 "J2" H 8750 4150 50  0000 C CNN
+F 1 "CONN_01X03" V 8850 3950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8750 3950 50  0001 C CNN
+F 3 "" H 8750 3950 50  0001 C CNN
+	1    8750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J1
+U 1 1 59857838
+P 8800 3100
+F 0 "J1" H 8800 3200 50  0000 C CNN
+F 1 "CONN_01X01" V 8900 3100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8800 3100 50  0001 C CNN
+F 3 "" H 8800 3100 50  0001 C CNN
+	1    8800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4050 8550 4050
+Wire Wire Line
+	7950 3100 8600 3100
 $EndSCHEMATC

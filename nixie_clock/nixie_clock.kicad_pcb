@@ -3,7 +3,7 @@
   (general
     (links 190)
     (no_connects 0)
-    (area 72.104999 20.107 223.805001 115.835)
+    (area 75.914999 20.107 223.805001 115.835)
     (thickness 1.6)
     (drawings 4)
     (tracks 1145)
@@ -59,13 +59,13 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 2 2)
+    (pad_drill 1.2)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010e0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -2402,7 +2402,7 @@
     )
   )
 
-  (module hv:IN12 (layer F.Cu) (tedit 5917B296) (tstamp 5920A1A2)
+  (module hv:IN12 (layer F.Cu) (tedit 592BA635) (tstamp 5920A1A2)
     (at 204.47 46.99)
     (path /5910CB88/591359F5)
     (fp_text reference U17 (at 0 0.5) (layer F.SilkS)
@@ -2441,11 +2441,11 @@
       (net 112 "Net-(U16-Pad11)"))
   )
 
-  (module Connectors:1pin (layer F.Cu) (tedit 5861332C) (tstamp 5920A92B)
+  (module Connectors:1pin (layer F.Cu) (tedit 592BA5CD) (tstamp 5920A92B)
     (at 78.74 24.13)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1pin (at 0 3) (layer F.Fab)
@@ -2457,11 +2457,11 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
   )
 
-  (module Connectors:1pin (layer F.Cu) (tedit 5861332C) (tstamp 5920A92C)
+  (module Connectors:1pin (layer F.Cu) (tedit 592BA5D6) (tstamp 5920A92C)
     (at 220.98 24.13)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1pin (at 0 3) (layer F.Fab)
@@ -2473,11 +2473,11 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
   )
 
-  (module Connectors:1pin (layer F.Cu) (tedit 5861332C) (tstamp 5920A92D)
+  (module Connectors:1pin (layer F.Cu) (tedit 592BA5DC) (tstamp 5920A92D)
     (at 220.98 111.76)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1pin (at 0 3) (layer F.Fab)
@@ -2489,11 +2489,11 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
   )
 
-  (module Connectors:1pin (layer F.Cu) (tedit 5861332C) (tstamp 5920A92E)
+  (module Connectors:1pin (layer F.Cu) (tedit 592BA5C4) (tstamp 5920A92E)
     (at 78.74 111.76)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1pin (at 0 3) (layer F.Fab)
