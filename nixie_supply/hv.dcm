@@ -4,4 +4,8 @@ $CMP +220V
 K POWER, PWR
 $ENDCMP
 #
+$CMP +240V
+K POWER, PWR
+$ENDCMP
+#
 #End Doc Library
